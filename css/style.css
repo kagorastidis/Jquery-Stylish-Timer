@@ -48,6 +48,7 @@ button:hover{
 
 button:focus{
 	transform:scale(2);
+	outline: 0;
 	z-index: 999;
 	border-color: #DD4814;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -97,6 +98,8 @@ button:focus{
 	#runner{
 		font-size: 14rem;
 	}
+
+
 }
 
 @media(max-width: 650px){
@@ -120,6 +123,7 @@ button:focus{
 	#runner{
 		font-size: 8rem;
 	}
+
 }
 
 @media(max-width: 390px){
