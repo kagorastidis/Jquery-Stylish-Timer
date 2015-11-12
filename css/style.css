@@ -47,6 +47,7 @@ button:hover{
 }
 
 button:focus{
+	outline:0;
 	transform:scale(2);
 	z-index: 999;
 	border-color: #DD4814;
